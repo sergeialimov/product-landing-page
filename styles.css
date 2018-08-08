@@ -1,19 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
 #header {
 
 }
 
 #header-img {
-  width: 250px;
+  width: 300px;
   margin-top: 15px;
+  margin-left: 20px;
 }
 
 
 #nav-bar {
-
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  /* position: fixed; */
 }
 
-#nav-link {
+.nav-link {
+  margin-left: 50px;
+  margin-right: 30px;
+  color: black;
+  text-decoration: none;
+}
 
+#title {
+  text-align: center;
+  font-size: 22px;
+}
+
+#form {
+  text-align: center;
+  position: relative;
+}
+
+#email {
+  width: 250px;
+  height: 30px;
+  margin: 5 5 5 5;
+}
+
+#submit {
+  margin: 10 10 10 10;
+  background-color: #f1c40f;
+  border-radius: 2px;
+  border-style: none;
+  height: 30px;
+  width: 150px;
+  font-size: 17px;
+  font-weight: 800;
 }
 
 .feature {
@@ -32,6 +71,10 @@
 
 }
 
-#form {
-  
+.price-block {
+
+}
+
+@media (max-width: 500px) {
+
 }
