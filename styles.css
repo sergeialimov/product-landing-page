@@ -81,14 +81,14 @@ main {
 }
 
 #feature {
-  margin-top: 40px;
+  margin-top: 80px;
 
 }
 
 .feature {
   display: flex;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .icon {
@@ -114,6 +114,11 @@ main {
   margin-left: 15px;
   font-weight: 450;
 }
+
+#how-it-works {
+  margin: 60px;
+}
+
 #video {
 
 }
