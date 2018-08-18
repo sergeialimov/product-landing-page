@@ -166,10 +166,33 @@ main {
   background-color: #f1c40f;
   text-align: center;
   border-style: none;
-  border-radius: 2px;
+  border-radius: 1px;
   height: 35px;
   width: 100px;
   font-size: 18px;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.links {
+  /* replace with vertical align */
+  padding-top: 10px;
+  text-align: right;
+}
+
+.link {
+  margin: 10 10 5 10;
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  text-align: right;
+  margin: 5 10 5 10;
 }
 
 @media (max-width: 600px) {
