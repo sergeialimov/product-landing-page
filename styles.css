@@ -234,4 +234,9 @@ footer {
   #pricing {
     display: inherit;
   }
+
+  .price-block {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
