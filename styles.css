@@ -215,6 +215,11 @@ footer {
     display: none
   }
 
+  #feature {
+    text-align: center;
+
+  }
+
   #pricing {
     display: inherit;
   }
