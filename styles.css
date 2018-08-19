@@ -221,7 +221,7 @@ footer {
     padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    height: 100px;
+    height: 120px;
   }
 
   /* #header {
@@ -255,10 +255,17 @@ footer {
   }
 
   nav li {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* display: flex; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
   }
 
   .nav-link {
+
   }
 
   #title {
